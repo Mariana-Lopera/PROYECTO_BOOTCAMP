@@ -1,0 +1,26 @@
+[
+  {
+    "sector": "Agricultura",
+    "porcentaje": 55
+  },
+  {
+    "sector": "Energia",
+    "porcentaje": 17
+  },
+  {
+    "sector": "Transporte",
+    "porcentaje": 13.4
+  },
+  {
+    "sector": "Industria",
+    "porcentaje": 4.5
+  },
+  {
+    "sector": "Residuos",
+    "porcentaje": 6.3
+  },
+  {
+    "sector": "Emisiones fugitivas",
+    "porcentaje": 3.5
+  }
+]

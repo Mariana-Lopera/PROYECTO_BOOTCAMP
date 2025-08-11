@@ -1,0 +1,14 @@
+[
+  {
+    "Combustible": "Gasolina",
+    "CO2": 2091631.35
+  },
+  {
+    "Combustible": "Diesel",
+    "CO2": 1309486.07
+  },
+  {
+    "Combustible": "GNV",
+    "CO2": 82849.33
+  }
+]

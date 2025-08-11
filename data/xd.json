@@ -1,0 +1,62 @@
+[
+  {
+    "Categoría vehicular": "Camiones",
+    "CO2": "638758,61",
+    "CH4": "3719,38",
+    "N2O": "24,89"
+  },
+  {
+    "Categoría vehicular": "Volquetas",
+    "CO2": "156150,44",
+    "CH4": "81,2",
+    "N2O": "6,36"
+  },
+  {
+    "Categoría vehicular": "Buses servicio especial",
+    "CO2": "195885,56",
+    "CH4": "1318,75",
+    "N2O": "4,92"
+  },
+  {
+    "Categoría vehicular": "Buses",
+    "CO2": "201222,13",
+    "CH4": "124,41",
+    "N2O": "6,97"
+  },
+  {
+    "Categoría vehicular": "Motos 4T",
+    "CO2": "543241,75",
+    "CH4": "813,05",
+    "N2O": "5,33"
+  },
+  {
+    "Categoría vehicular": "Autos",
+    "CO2": "1407285,81",
+    "CH4": "17963,74",
+    "N2O": "69,61"
+  },
+  {
+    "Categoría vehicular": "Tractocamiones",
+    "CO2": "43699,09",
+    "CH4": "1,36",
+    "N2O": "1,61"
+  },
+  {
+    "Categoría vehicular": "Autos servicio especial",
+    "CO2": "131081,64",
+    "CH4": "252,74",
+    "N2O": "6,56"
+  },
+  {
+    "Categoría vehicular": "Taxis",
+    "CO2": "158648,87",
+    "CH4": 19,
+    "N2O": "4,22"
+  },
+  {
+    "Categoría vehicular": "Motos 2T",
+    "CO2": "24,9",
+    "CH4": "0,99",
+    "N2O": 0
+  }
+]

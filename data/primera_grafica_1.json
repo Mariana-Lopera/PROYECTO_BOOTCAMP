@@ -1,0 +1,32 @@
+[
+  {
+    "fuentes": "moviles",
+    "sectores": "taxis",
+    "porcentaje": 3
+  },
+  {
+    "fuentes": "moviles",
+    "sectores": "automoviles",
+    "porcentaje": 7
+  },
+  {
+    "fuentes": "moviles",
+    "sectores": "buses",
+    "porcentaje": 10
+  },
+  {
+    "fuentes": "moviles",
+    "sectores": "motos",
+    "porcentaje": 17
+  },
+  {
+    "fuentes": "moviles",
+    "sectores": "camiones",
+    "porcentaje": 63
+  },
+  {
+    "fuentes": "fijas",
+    "sectores": "industria",
+    "porcentaje": 18
+  }
+]

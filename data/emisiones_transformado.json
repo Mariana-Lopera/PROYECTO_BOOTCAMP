@@ -1,0 +1,152 @@
+[
+    {
+        "categoria_vehicular": "Camiones",
+        "gases": "CO2",
+        "valor": 638758.61
+    },
+    {
+        "categoria_vehicular": "Camiones",
+        "gases": "CH4",
+        "valor": 3719.38
+    },
+    {
+        "categoria_vehicular": "Camiones",
+        "gases": "N2O",
+        "valor": 24.89
+    },
+    {
+        "categoria_vehicular": "Volquetas",
+        "gases": "CO2",
+        "valor": 156150.44
+    },
+    {
+        "categoria_vehicular": "Volquetas",
+        "gases": "CH4",
+        "valor": 81.2
+    },
+    {
+        "categoria_vehicular": "Volquetas",
+        "gases": "N2O",
+        "valor": 6.36
+    },
+    {
+        "categoria_vehicular": "Buses servicio especial",
+        "gases": "CO2",
+        "valor": 195885.56
+    },
+    {
+        "categoria_vehicular": "Buses servicio especial",
+        "gases": "CH4",
+        "valor": 1318.75
+    },
+    {
+        "categoria_vehicular": "Buses servicio especial",
+        "gases": "N2O",
+        "valor": 4.92
+    },
+    {
+        "categoria_vehicular": "Buses",
+        "gases": "CO2",
+        "valor": 201222.13
+    },
+    {
+        "categoria_vehicular": "Buses",
+        "gases": "CH4",
+        "valor": 124.41
+    },
+    {
+        "categoria_vehicular": "Buses",
+        "gases": "N2O",
+        "valor": 6.97
+    },
+    {
+        "categoria_vehicular": "Motos 4T",
+        "gases": "CO2",
+        "valor": 543241.75
+    },
+    {
+        "categoria_vehicular": "Motos 4T",
+        "gases": "CH4",
+        "valor": 813.05
+    },
+    {
+        "categoria_vehicular": "Motos 4T",
+        "gases": "N2O",
+        "valor": 5.33
+    },
+    {
+        "categoria_vehicular": "Autos",
+        "gases": "CO2",
+        "valor": 1407285.81
+    },
+    {
+        "categoria_vehicular": "Autos",
+        "gases": "CH4",
+        "valor": 17963.74
+    },
+    {
+        "categoria_vehicular": "Autos",
+        "gases": "N2O",
+        "valor": 69.61
+    },
+    {
+        "categoria_vehicular": "Tractocamiones",
+        "gases": "CO2",
+        "valor": 43699.09
+    },
+    {
+        "categoria_vehicular": "Tractocamiones",
+        "gases": "CH4",
+        "valor": 1.36
+    },
+    {
+        "categoria_vehicular": "Tractocamiones",
+        "gases": "N2O",
+        "valor": 1.61
+    },
+    {
+        "categoria_vehicular": "Autos servicio especial",
+        "gases": "CO2",
+        "valor": 131081.64
+    },
+    {
+        "categoria_vehicular": "Autos servicio especial",
+        "gases": "CH4",
+        "valor": 252.74
+    },
+    {
+        "categoria_vehicular": "Autos servicio especial",
+        "gases": "N2O",
+        "valor": 6.56
+    },
+    {
+        "categoria_vehicular": "Taxis",
+        "gases": "CO2",
+        "valor": 158648.87
+    },
+    {
+        "categoria_vehicular": "Taxis",
+        "gases": "CH4",
+        "valor": 19
+    },
+    {
+        "categoria_vehicular": "Taxis",
+        "gases": "N2O",
+        "valor": 4.22
+    },
+    {
+        "categoria_vehicular": "Motos 2T",
+        "gases": "CO2",
+        "valor": 24.9
+    },
+    {
+        "categoria_vehicular": "Motos 2T",
+        "gases": "CH4",
+        "valor": 0.99
+    },
+    {
+        "categoria_vehicular": "Motos 2T",
+        "gases": "N2O",
+        "valor": 0
+    }
+]

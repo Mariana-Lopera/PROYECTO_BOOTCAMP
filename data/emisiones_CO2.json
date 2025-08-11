@@ -1,0 +1,42 @@
+[
+    {
+        "categoria_vehicular": "Camiones",
+        "cantidad_CO2": 638758.61
+    },
+    {
+        "categoria_vehicular": "Volquetas",
+        "cantidad_CO2": 156150.44
+    },
+    {
+        "categoria_vehicular": "Buses servicio especial",
+        "cantidad_CO2": 195885.56
+    },
+    {
+        "categoria_vehicular": "Buses",
+        "cantidad_CO2": 201222.13
+    },
+    {
+        "categoria_vehicular": "Motos 4T",
+        "cantidad_CO2": 543241.75
+    },
+    {
+        "categoria_vehicular": "Autos",
+        "cantidad_CO2": 1407285.81
+    },
+    {
+        "categoria_vehicular": "Tractocamiones",
+        "cantidad_CO2": 43699.09
+    },
+    {
+        "categoria_vehicular": "Autos servicio especial",
+        "cantidad_CO2": 131081.64
+    },
+    {
+        "categoria_vehicular": "Taxis",
+        "cantidad_CO2": 158648.87
+    },
+    {
+        "categoria_vehicular": "Motos 2T",
+        "cantidad_CO2": 24.9
+    }
+]

@@ -1,0 +1,26 @@
+[
+  {
+    "sectores": "taxis: 3% ",
+    "porcentaje": 3
+  },
+  {
+    "sectores": "automoviles: 7% ",
+    "porcentaje": 7
+  },
+  {
+    "sectores": "buses: 10% ",
+    "porcentaje": 10
+  },
+  {
+    "sectores": "motos: 17% ",
+    "porcentaje": 17
+  },
+  {
+    "sectores": "camiones: 63% ",
+    "porcentaje": 63
+  },
+  {
+    "sectores": "industria: 18% ",
+    "porcentaje": 18
+  }
+]
