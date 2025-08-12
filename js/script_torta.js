@@ -2,13 +2,13 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('data/Grafica_1_real.json')
         .then(response => response.json())
         .then(data => {
-            const ctx = document.getElementById('graficoBarrasContaminacion').getContext('2d');
+            const ctx = document.getElementById('graficotorta').getContext('2d');
             new Chart(ctx, {
                 type: 'pie',
                 data: {
                     labels: data.map(item => item.sector),
                     datasets: [{
-                        label: 'Porcentaje de energía renovable',
+                        label: 'Porcentaje de Contaminación',
                         data: data.map(item => item['porcentaje']),
                         backgroundColor: [
                             'rgba(54, 162, 235, 0.6)',

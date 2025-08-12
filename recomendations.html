@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/desingreco.css">
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="statistics.html">Estadísticas</a></li>
+            <li><a href="calculator.html">Calculadora</a></li>
+            <li><a href="recomendations.html">Recomendaciones</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="contentslider1">
+        <div class="textcar">
+            <h2>
+                Apostar por estándares vehiculares más exigentes
+            </h2>
+
+            <p>Implementar normas como Euro 6 o EPA Tier 3 puede reducir de forma significativa los gases tóxicos y partículas contaminantes que emiten los vehículos. Estas regulaciones han demostrado su efectividad en otros países y, al aplicarse localmente, pueden mejorar la calidad del aire y prevenir enfermedades respiratorias. Es clave promoverlas en políticas públicas y respaldar las iniciativas que impulsen su adopción.</p>
+        </div>
+        <div class="slider1">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio1">
+                <input type="radio" name="radio-btn" id="radio2">
+                <input type="radio" name="radio-btn" id="radio3">
+                <input type="radio" name="radio-btn" id="radio4">
+
+                <div class="slide first">
+                    <img src="vidsimg/c1.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="vidsimg/c2.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="vidsimg/pexels-kindelmedia-9800031.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="vidsimg/c5.jpg" alt="">
+                </div>
+
+                <div class="navigation.auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio1" class="manual-btn"></label>
+                <label for="radio2" class="manual-btn"></label>
+                <label for="radio3" class="manual-btn"></label>
+                <label for="radio4" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+    <section id="contentslider2">
+        <div class="textcar">
+            <h2>
+                Fomentar cambios en los hábitos de movilidad
+            </h2>
+
+            <p>Compartir vehículo, planificar rutas para optimizar recorridos, usar transporte público o bicicleta algunos días a la semana son acciones simples que disminuyen la cantidad de emisiones diarias. Cuando se adoptan de forma colectiva, estos cambios generan un impacto notable en la calidad del aire y contribuyen a reducir la huella de carbono del transporte.</p>
+        </div>
+        <div class="slider2">
+            <div class="slides">
+                <input type="radio" name="radio-btn" id="radio5">
+                <input type="radio" name="radio-btn" id="radio6">
+                <input type="radio" name="radio-btn" id="radio7">
+                <input type="radio" name="radio-btn" id="radio8">
+
+                <div class="slide first">
+                    <img src="vidsimg/cuatro.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="vidsimg/cinco.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="vidsimg/tres.jpg" alt="">
+                </div>
+                <div class="slide">
+                    <img src="vidsimg/dos.jpg" alt="">
+                </div>
+
+                <div class="navigation.auto">
+                    <div class="auto-btn1"></div>
+                    <div class="auto-btn2"></div>
+                    <div class="auto-btn3"></div>
+                    <div class="auto-btn4"></div>
+                </div>
+            </div>
+            <div class="navigation-manual">
+                <label for="radio5" class="manual-btn"></label>
+                <label for="radio6" class="manual-btn"></label>
+                <label for="radio7" class="manual-btn"></label>
+                <label for="radio8" class="manual-btn"></label>
+            </div>
+        </div>
+    </section>
+    
+    
+    <script type="text/javascript">
+        var counter = 1;
+        setInterval(function(){
+            document.getElementById('radio' + counter).checked = true;
+            counter++;
+            if(counter > 8){
+                counter = 1;
+            }
+        }, 5000);
+    </script>
+
+   
+</body>
+</html>

@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function () {
         .then(data => {
              // Ordenar los datos de mayor a menor cantidad_CO2
             data.sort((a, b) => b.cantidad_CO2 - a.cantidad_CO2);
-            const ctx = document.getElementById('graficoBarrasContaminacion').getContext('2d');
+            const ctx = document.getElementById('graficobarras').getContext('2d');
             new Chart(ctx, {
                 type: 'bar',
                 data: {

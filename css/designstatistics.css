@@ -1,0 +1,355 @@
+#menu {
+    background-color: black;
+    padding: 0;
+    height: 90px;
+    transition: height 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+    visibility: visible;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 0 50px;
+    line-height: 72px;
+    border-radius: 20px;
+    
+    
+}
+
+#menu li a {
+  position: relative;
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#menu li a:hover {
+  color: black;
+  background-color:white;
+  transition: 0.6s;
+  box-shadow:
+    0 0 8px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(0, 255, 150, 0.6),
+    0 0 30px rgba(0, 255, 150, 0.4);
+}
+
+#menu li a:active, #menu li a:focus {
+  box-shadow:
+    0 0 10px rgba(255, 255, 255, 1),
+    0 0 25px rgba(0, 255, 150, 0.8);
+  transform: scale(1.05);
+}
+
+body{
+    margin: 0;
+    background-color: white;
+}
+#menu ul{
+    margin: 0;
+}
+
+#firstsec {
+  background-color: white;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-top: 91px; 
+  padding-top: 30px;
+  height: calc(100vh - 91px - 40px); 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+#secondsec {
+  background-color: white;
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+#thirdsec{
+  background-color: white;
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+#fourthsec{
+  background-color: white;
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+#fifthsec{
+  background-color: white;
+  margin-left: 20px;
+  padding-top: 30px;
+  margin-right: 20px;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#divsec1{
+  box-shadow: 0 0 30px #0df4944d; /* glowing green */
+}
+#divsec2{
+  box-shadow: 0 0 30px #0d8cf44d; /* glowing green */
+}
+#divsec3{
+  box-shadow: 0 0 30px #f40dca4d; /* glowing green */
+}
+#divsec4{
+  box-shadow: 0 0 30px #353b394d; /* glowing green */
+}
+
+#divsec5{
+  box-shadow: 0 0 30px #a761004d; /* glowing green */
+}
+
+
+
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+ #divsec2, #divsec3, #divsec4, #divsec5 {
+  background-color: aliceblue;
+  transform: translateY(40px);
+  animation: fadeSlideIn 1s ease forwards;
+  padding: 30px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  z-index: 1;
+  box-shadow: glow ;
+
+ 
+}
+
+#divsec1 {
+  box-shadow: 0 0 30px #0df4944d;
+  width: 100%;
+  height: 100%; /* Ocupa toda la altura disponible de la sección */
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+#divsec1 h2, #divsec2 h2, #divsec3 h2, #divsec4 h2, #divsec5 h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  padding-bottom: 0;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s;
+  font-size: 40px;
+
+  
+}
+#divsec1 h2{
+  font-size: 50px;
+  padding-bottom: 10px;
+}
+#divsec1 p, #divsec2 p, #divsec3 p, #divsec4 p, #divsec5 p{
+  font-family: 'Times New Roman', Times, serif;
+  padding: 10px;
+  padding-top: 5px;
+  opacity: 0;
+  animation: fadeInUp 1.2s ease forwards;
+  animation-delay: 0.6s;
+  width: 80%;
+  text-align: center;
+  margin: 0;
+}
+
+
+
+
+
+
+
+
+
+#titlediv1, #titlediv2, #titlediv3, #titlediv4, #titlediv5 {
+  top: 40px;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+#pdiv1, #pdiv2, #pdiv3, #pdiv4, #pdiv5 {
+  top: 90px;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+
+
+
+#divsec3 p.show{
+  transform: translateY(0);
+  transition: 3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+#divsec3 h2.show{
+  transform: translateY(0);
+  transition: 3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+#divsec2 p.show{
+  transform: translateY(0);
+  transition: 3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+#divsec2 h2.show{
+  transform: translateY(0);
+  transition: 3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+#divsec4 p.show{
+  transform: translateY(0);
+  transition: 3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+#divsec4 h2.show{
+  transform: translateY(0);
+  transition: 3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+#divsec5 p.show{
+  transform: translateY(0);
+  transition: 3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+#divsec5 h2.show{
+  transform: translateY(0);
+  transition: 3s ease;
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+
+
+.overlay-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.85);
+    z-index: 10000;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+/* Image styles */
+canvas {
+  display: block;
+  max-width: 40%;
+  border-radius: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  transition: all 0.5s ease;
+  cursor: pointer;
+  margin: 20px auto; /* Center the image */
+}
+
+/* Fullscreen hover effect */
+canvas:hover {
+  position: absolue;
+  top: 0;
+  left: 0;
+  width: 80%;
+  height: 80%;
+  max-width: 80vw;
+  max-height: 80vh;
+  object-fit: contain;
+  border-radius: 0;
+  z-index: 10000;
+  background-color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+  padding: 20px;
+}
+
+
+#divsec1:hover{
+  box-shadow: 0 0 60px rgba(0, 255, 150, 0.5); /* stronger glow */
+
+}
+#divsec2:hover{
+  box-shadow: 0 0 60px rgba(13, 140, 244, 0.5); /* glowing green */
+}
+#divsec3:hover{
+  box-shadow: 0 0 60px rgba(244, 13, 202, 0.5); /* glowing green */
+}
+#divsec4:hover{
+  box-shadow: 0 0 60px #353b394d; /* glowing green */
+}
+#divsec5:hover {
+  box-shadow: 0 0 60px #a761004d; /* glowing green */
+}
+
+
+
+
+
+
+

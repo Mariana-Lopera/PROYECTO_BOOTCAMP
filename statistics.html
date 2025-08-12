@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Document</title>
+    <link rel="stylesheet" href="css/designstatistics.css">
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="statistics.html">Estadísticas</a></li>
+            <li><a href="calculator.html">Calculadora</a></li>
+            <li><a href="recomendations.html">Recomendaciones</a></li>
+
+        </ul>
+    </nav>
+
+    <section id="firstsec">
+        <div id="divsec1" class="image-container">
+            <h2 id="titlediv1">Estadisticas en Colombia</h2>
+            
+        </div>
+
+    </section>
+
+    <section id="secondsec">
+        <div id="divsec2" class="image-container">
+            <h2 id="titlediv2" class="fadein">
+                Sectores Contaminantes
+            </h2>
+            <p id="pdiv2"> En Colombia, la contaminación por gases de efecto invernadero proviene de una diversidad de sectores productivos y de servicios. La agricultura y ganadería destacan como una de las principales fuentes, no solo por las emisiones directas de metano asociadas al manejo del ganado, sino también por el uso de fertilizantes y la transformación de suelos que liberan CO₂. El sector energético, que incluye la generación de electricidad y el consumo de combustibles fósiles, aporta emisiones tanto en la producción como en la quema de estos recursos, especialmente en centrales térmicas y plantas de refinación. El transporte en especial el terrestre, genera grandes volúmenes de CO₂ debido al uso masivo de gasolina y diésel en vehículos particulares y de carga, además de contaminantes como material particulado y óxidos de nitrógeno.La industria manufacturera y de construcción también emite gases de efecto invernadero, producto de procesos como la fabricación de cemento, la producción de acero y el uso de maquinaria pesada. Finalmente, existen las llamadas emisiones fugitivas, originadas por fugas de gases durante la extracción, transporte y almacenamiento de hidrocarburos, así como por actividades mineras, que a menudo pasan desapercibidas pero tienen un alto potencial de calentamiento global.
+
+</p>
+            <canvas id="graficotorta" id="img"></canvas>
+
+        </div>
+    </section>
+
+    <section id="thirdsec">
+        <div id="divsec3">
+            <h2 id="titlediv3" class="fadein">Contaminación de Transporte</h2>
+            <p id="pdiv3"> Según diversos estudios nacionales, el transporte por carretera, es uno de los principales responsables de las emisiones vehiculares en Colombia. Este segmento contribuye con aproximadamente el 42 % de las emisiones del sector transporte, lo que equivale al 4.6 % de las emisiones totales de CO₂ del país. Si bien los autos particulares individualmente emiten menos CO₂ que un camión, su elevado número en circulación hace que su impacto sea mucho mayor a lo esperado. Sin embargo, el transporte público se perfila como una alternativa más eficiente desde el punto de vista energético y de emisiones por pasajero, apesar de que muchos buses aún operan con combustibles fósiles (como diesel), lo que limita el potencial de ser tan "eficiente". Las siguientes graficas obtenidas por entidades estatales de Colombia del DNP (Departamento Nacional de Planeación) en la produccion de CO2 en toneladas por año dependiendo del tipo de vehiculo.</p>
+            <canvas id="graficobarras" id="img"></canvas>
+        </div>
+    </section>
+
+    <section id="fourthsec">
+        <div id="divsec4">
+            <h2 id="titlediv4" class="fadein">Combustibles en Colombia</h2>
+            <p id="pdiv4">En Colombia, el diésel genera en promedio entre un 8 % y 15 % menos emisiones de gases de efecto invernadero (GEI) que la gasolina durante su ciclo completo (producción y uso). Sin embargo, cuando comparamos directamente el consumo real de vehículos, la diferencia puede ser menor: estudios muestran que un vehículo a gas natural comprimido (GNC) emite aproximadamente 16,3 kg de CO₂ por cada 100 km, frente a unos 22 kg por 100 km en gasolina. En el contexto colombiano, el uso de GNV reduce las emisiones de CO₂ en aproximadamente un 30 % respecto a la gasolina y, al mismo tiempo, disminuye casi al 100 % las emisiones de material particulado (PM2.5) y óxidos de azufre, posicionándose como un “combustible-puente” catalizador de la transición energética. Los combustibles alternativos presentan ventajas aún más evidentes: el gas natural, al tener una molécula de metano con un átomo de carbono, genera considerablemente menos CO₂ que el diésel; el bioetanol alcanza hasta una reducción del 90 % de emisiones comparado con el diésel; y los vehículos híbridos o alimentados con combustibles renovables pueden disminuir emisiones hasta en un 92 %, especialmente si utilizan HVO (aceites vegetales hidrotratados)</p>
+            <canvas id="graficatres" id="img"></canvas>
+        </div>
+    </section>
+
+
+    <script src="js/scripts.js"></script>
+    <script src="js/script_torta.js"></script>
+    <script src="js/script_barras_nuevo.js"></script>
+    <script src="js/script_lineas_nuevo.js"></script>
+
+</body>
+</html>

@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function () {
     fetch('data/grafica_3.json')
         .then(response => response.json())
         .then(data => {
-            const ctx = document.getElementById('graficoBarrasContaminacion').getContext('2d');
+            const ctx = document.getElementById('graficatres').getContext('2d');
             new Chart(ctx, {
                 type: 'line', // Cambiado de 'bar' a 'line'
                 data: {

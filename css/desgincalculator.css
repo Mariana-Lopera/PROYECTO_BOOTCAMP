@@ -1,0 +1,370 @@
+
+
+#menu {
+    background-color: black;
+    padding: 0;
+    height: 90px;
+    transition: height 0.5s ease, opacity 0.5s ease;
+    opacity: 1;
+    visibility: visible;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    z-index: 9000;
+}
+
+#menu li {
+    display: inline-block;
+    padding: 0 50px;
+    line-height: 72px;
+    border-radius: 20px;
+    padding-top: 0
+    ;
+    
+    
+}
+
+#menu li a {
+  position: relative;
+  display: inline-block;
+  padding: 0.5em 1em;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, box-shadow 0.3s ease;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
+#menu li a:hover {
+  color: black;
+  background-color:white;
+  transition: 0.6s;
+  box-shadow:
+    0 0 8px rgba(255, 255, 255, 0.8),
+    0 0 20px rgba(0, 255, 150, 0.6),
+    0 0 30px rgba(0, 255, 150, 0.4);
+}
+
+#menu li a:active, #menu li a:focus {
+  box-shadow:
+    0 0 10px rgba(255, 255, 255, 1),
+    0 0 25px rgba(0, 255, 150, 0.8);
+  transform: scale(1.05);
+}
+#menu ul{
+    margin: 0;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+#tiposcarga {
+            display: none; /* Hide by default */
+        }
+
+
+
+#kinda{
+  color: black;
+  
+  
+}
+@keyframes fadeSlideIn {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#divcalc1{
+  background: linear-gradient(black,rgb(9, 79, 9));
+  transform: translateY(40px);
+  animation: fadeSlideIn 1s ease forwards;
+  padding: 30px;
+  position: relative;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: visible;
+  z-index: 1;
+  box-shadow: glow ;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  border: 2px solid rgb(78, 255, 75);
+  box-shadow:
+    0 0 10px rgba(255, 255, 255, 0.7),
+    0 0 20px rgba(78, 255, 75, 0.8),
+    0 0 40px rgba(78, 255, 75, 1);
+  width: 100vh;
+  border-radius: px;
+}
+
+
+#divcalc1 h1{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  padding-bottom: 0;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s;
+  font-size: 40px;
+  color: rgb(78, 255, 75);
+
+}
+
+select{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  padding-bottom: 0;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s;
+  font-size: 20px;
+  color: white;
+  text-shadow: 
+    0 0 10px rgba(78, 255, 75, 0.5),
+    0 0 20px rgba(78, 255, 75, 0.5);;
+  background-color: rgba(0, 0, 0, 0.56);
+  margin-top: 5px;
+}
+
+input{font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  padding-bottom: 0;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s;
+  font-size: 20px;
+  color: white;
+  background-color: rgb(0, 0, 0);
+  margin-top: 5px;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  outline: none;
+  
+
+}
+
+label{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  padding-bottom: 0;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s;
+  font-size: 20px;
+  color: rgb(167, 255, 167);
+  padding-left: 0px;
+  display: inline-block;
+  margin: 0px;
+
+}
+#divcalc1 h2{
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 10px;
+  padding-bottom: 0;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s;
+  font-size: 20px;
+  color: rgb(167, 255, 167);
+  padding-left: 0px;
+  display: inline-block;
+
+}
+
+
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+#rendimiento {
+  background: linear-gradient(to bottom, #121212, #092309);
+  border-radius: 15px;
+  padding: 20px;
+  margin-bottom: 20px;
+  box-shadow: 
+    0 10px 20px rgba(0, 0, 0, 0.19), 
+    0 6px 6px rgba(0, 0, 0, 0.23),
+    0 0 15px rgba(78, 255, 75, 0.3);
+  border: 1px solid rgba(78, 255, 75, 0.3);
+  transition: all 0.4s ease;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.5s;
+}
+
+#rendimiento:hover {
+  transform: translateY(-10px);
+  box-shadow: 
+    0 15px 30px rgba(0, 0, 0, 0.5), 
+    0 10px 10px rgba(0, 0, 0, 0.5),
+    0 0 20px rgba(78, 255, 75, 0.9);
+}
+
+#rendimiento h3 {
+  text-align: center;
+  color: rgb(78, 255, 75);
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-shadow: 0 0 8px rgba(78, 255, 75, 0.5);
+  letter-spacing: 1px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rendimientoscom p {
+  color: white;
+  display: block;
+  padding: 12px 15px;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.7), rgba(29, 53, 87, 0.7));
+  margin: 10px 0;
+  border-radius: 10px;
+  border-left: 3px solid rgb(78, 255, 75);
+  transition: all 0.3s ease;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rendimientoscom p:hover {
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.8), rgba(29, 53, 87, 0.8));
+  border-left: 5px solid rgb(78, 255, 75);
+  transform: translateX(3px);
+  box-shadow: 0 0 10px rgba(78, 255, 75, 0.3);
+}
+
+.rendimientoscom strong {
+  color: rgb(167, 255, 167);
+  font-weight: bold;
+  letter-spacing: 0.5px;
+}
+
+.rendimientoscom span {
+  font-weight: bold;
+  color: white;
+  margin-left: 5px;
+}
+
+
+.options1,.options2, .options3, .options4 {
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  outline: none;
+
+}
+
+#contecalcul {
+    display: flex;
+    justify-content: center; /* centrado horizontal */
+    align-items: flex-start; /* alineado arriba */
+    gap: 40px; /* espacio entre verde y rojo */
+    margin-top: 90px; /* empujar debajo del menú fijo */
+    padding: 40px;
+    background: linear-gradient(black,rgb(9, 56, 9),black);
+    height: 100vh;
+}
+
+#divcalc1 {
+    flex: 1; /* ocupa espacio disponible */
+    max-width: 900px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    
+}
+
+#rendimiento {
+    flex: 0 0 auto; /* tamaño fijo */
+    border-radius: 10px;
+    padding: 15px;
+    width: 300px; /* ancho fijo */
+    margin-top: 125px;
+    margin-bottom: 125px;
+}
+
+#vidcalc {
+    position: relative;
+    height: 100vh; /* ocupa toda la altura de la ventana */
+    overflow: hidden;
+}
+
+#vidcalc video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* el video llena sin deformarse */
+    z-index: 0;
+}
+
+/* Degradado para transición suave desde la sección anterior */
+#vidcalc::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 400px; /* altura del degradado */
+    background: linear-gradient(to bottom, black, transparent);
+    z-index: 1;
+}
+
+
+#divcalc1 select,
+#divcalc1 input {
+  display: block;
+  margin-bottom: 15px;
+  width: 100%;
+}
+
+button{
+  margin: 10px;
+  margin-left: 160px;
+  appearance: none;
+  border: 1px solid whitesmoke;
+  border-radius: 5px;
+  outline: none;
+  padding: 5px;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s;
+
+  color: white;
+  background-color: rgb(0, 0, 0);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+
+
+#results p{
+  color: white;
+  text-shadow: 
+    0 0 10px rgba(78, 255, 75, 0.5),
+    0 0 20px rgba(78, 255, 75, 0.5);;
+  padding: 5px;
+
+}
+#results h2{
+  padding: 10px;
+  padding-left: 0;
+  opacity: 0;
+  animation: fadeInUp 1s ease forwards;
+
+}
+
+

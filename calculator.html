@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Emisiones CO2</title>
+    <link rel="stylesheet" href="css/desgincalculator.css">
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="statistics.html">Estadísticas</a></li>
+            <li><a href="calculator.html">Calculadora</a></li>
+            <li><a href="recomendations.html">Recomendaciones</a></li>
+
+        </ul>
+    </nav>
+
+    
+    <section id="contecalcul">
+        <div id="divcalc1">
+            <h1>Calculadora Producción de CO2</h1>
+            <form id="kinda">
+                <h2>Seleccione el tipo de Vehiculo: </h2>
+                <select name="tipodevehiculo" class = "options1"required>
+                    <option value="veh2">Moto</option>
+                    <option value="veh3">Automovil</option>
+                    <option value="veh4">SUV</option>
+                    <option value="veh5">Pick-Up</option>
+                    <option value="veh6">Bus</option>
+                    <option value="veh7">Metro</option> 
+                </select>
+                <h2>Seleccion el Cilindraje: </h2>
+                <select name="cilindraje" id="cilindra" class="options2" onchange="actualrendim()">
+                    <option value="range1">1000cc - 1400cc</option>
+                    <option value="range2">1401cc - 1800cc</option>
+                    <option value="range3">1801cc - 2500cc</option>
+                    <option value="range4">2501cc o más</option>
+                    <option value="range5">Eléctrico</option>
+                </select>
+
+                <h2>Seleccione el tipo de Combustible: </h2>
+                <select name="combtipo" id="typefuel" class="options3">
+                    <option value="1">Gasolina</option>
+                    <option value="2">Diesel</option>
+                    <option value="3">Gas</option>
+                    <option value="4">Eléctrico</option>
+                </select>
+
+                <div id="tiposcarga">
+                    <h2>Tipo de Carga</h2>
+                    <select name="tipoCarga" id="cargatype" class="options4">
+                        <option value="1">Carga Electrica (doméstica)</option>
+                        <option value="2">Carga Fotovoltaica</option>
+                        <option value="3">Carga Eólica</option>
+                    </select>
+                </div>
+
+                
+
+                <label for="kims">Ingrese los Kilometros por día aproximados: </label>
+                <input type="number" placeholder="# de Km" id="kims">
+                <label for="personas">Ingrese el numero de personas que van en el vehiculo: </label>
+                <input type="number" placeholder="# de Personas" required id="personas">
+                
+                <button type="button" onclick="calculCO2()">Calcular emisiones</button>
+                <div id="results" style="display:none;">
+                    <h2>Resultados:</h2>
+                    <p>Emisiones de CO2: <span id="CO2diario">0</span> kg CO2/día</p>
+                    <p>Emisiones de CO2 por pasajero: <span id="CO2pasajero">0</span> kg CO2/día</p>
+                    <p>Emisiones anuales: <span id="CO2anual">0</span> kg CO2/año</p>
+                </div>
+            </form>
+        </div>
+        <div id="rendimiento" class="infogasolina">
+            <h3>Eficiencia por tipo de combustible:</h3>
+            <div class="rendimientoscom">
+                <p><strong>Gasolina: </strong> <span id="gasovalor">45</span> km/gal</p>
+                <p><strong>Diesel: </strong> <span id="diesvalor">55</span> km/gal</p>
+                <p><strong>Gas Natural: </strong> <span id="gasvalor">48</span> km/gal</p>
+                <p><strong>Electrico: </strong><span id="elecvalor"></span>km/kWh</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="vidcalc">
+        <video src="vidsimg/13720155_3840_2160_30fps.mp4" autoplay loop></video>
+
+    </section>
+    <script src="js/calculator.js"></script>
+</body>
+</html>
+
+    

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Emisiones CO2</title>
+    <link rel="stylesheet" href="css/design.css">
+</head>
+<body>
+    <nav id="menu">
+        <ul>
+            <li><a href="Home.html">Home</a></li>
+            <li><a href="statistics.html">Estadísticas</a></li>
+            <li><a href="fuel.html">Combustibles</a></li>
+            <li><a href="calculator.html">Calculadora</a></li>
+            <li><a href="recomendations.html">Recomendaciones</a></li>
+        </ul>
+    </nav>
+
+    <section id="calcul1">
+        <div id="divcalc1">
+            <h1>Calculadora Producción de CO2</h1>
+            <form id="kinda">
+                <h2>Seleccione el tipo de vehículo</h2>
+                <p>Calcule su producción de CO2 según el medio de transporte que use a diario</p>
+                <select name="tipodevehiculo" id="vehicleType" required>
+                    <option value="veh1">Bicicleta</option>
+                    <option value="veh2">Moto</option>
+                    <option value="veh3">Automovil</option>
+                    <option value="veh4">SUV</option>
+                    <option value="veh5">Pick-Up</option>
+                    <option value="veh6">Bus</option>
+                    <option value="veh7">Metro</option> 
+                </select>
+                <h2>Seleccione el cilindraje</h2>
+                <select name="cilindraje" id="cilindra" onchange="updateFuelEfficiency()" required>
+                    <option value="range1">1000cc - 1400cc</option>
+                    <option value="range2">1401cc - 1800cc</option>
+                    <option value="range3">1801cc - 2500cc</option>
+                    <option value="range4">2501cc o más</option>
+                    <option value="range5">Eléctrico</option>
+                </select>
+                
+                <div id="fuelEfficiency" class="fuel-info">
+                    <h3>Eficiencia por tipo de combustible:</h3>
+                    <div class="efficiency-values">
+                        <p><strong>Gasolina:</strong> <span id="gasoline-value">45</span> km/gal</p>
+                        <p><strong>Diesel:</strong> <span id="diesel-value">55</span> km/gal</p>
+                        <p><strong>Gas Natural:</strong> <span id="gas-value">48</span> km/gal</p>
+                    </div>
+                </div>
+                
+                <h2>Tipo de combustible</h2>
+                <select name="combustible" id="fuelType" required>
+                    <option value="fuel1">Gasolina</option>
+                    <option value="fuel2">Diesel</option>
+                    <option value="fuel3">Gas Natural</option>
+                    <option value="fuel4">Eléctrico</option>
+                </select>
+                
+                <h2>Ingrese los Kilometros por día aproximados</h2>
+                <input type="number" id="kilometers" placeholder="# de Km" required>
+                
+                <h2>Ingrese el numero de personas que van en el vehiculo</h2>
+                <input type="number" id="passengers" placeholder="# de Personas" required>
+                
+                <button type="button" onclick="calculateCO2()" class="calculate-btn">Calcular emisiones</button>
+                
+                <div id="results" class="results-container">
+                    <h2>Resultados:</h2>
+                    <p>Emisiones de CO2: <span id="co2-result">0</span> kg CO2/día</p>
+                    <p>Emisiones anuales: <span id="annual-result">0</span> kg CO2/año</p>
+                </div>
+            </form>
+        </div>
+    </section>
+    
+    <script src="js/calculator.js"></script>
+</body>
+</html>
